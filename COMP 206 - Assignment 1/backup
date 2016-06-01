@@ -1,0 +1,13 @@
+#!/bin/bash
+cd ~/comp206/project/source;
+if [ "$#" == "0" ];
+then
+	cp ~/comp206/project/source/* ~/comp206/project/backup/; rm ~/comp206/project/backup/backup
+	echo "All files have been backed up."
+else
+	for f in "$@"
+	do
+		cp $f ~/comp206/project/backup
+		echo "$f file has been backed up."
+	done
+fi

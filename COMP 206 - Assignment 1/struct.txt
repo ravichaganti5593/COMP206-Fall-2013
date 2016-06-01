@@ -1,0 +1,37 @@
+#Ravi Chaganti - 260469339
+
+
+Q2) a)
+[rchaga2][linux][/home/2013] cd ~
+
+
+[rchaga2][linux][~] mkdir public_html			#to create a directory public_html in the home directory
+[rchaga2][linux][~] mkdir comp206			#to create a directory comp206 in the home directory
+[rchaga2][linux][~] ls					#to check the directories created in the home directory
+comp206  public_html
+
+[rchaga2][linux][~] cd comp206
+	
+[rchaga2][linux][~/comp206] mkdir project		
+[rchaga2][linux][~/comp206] cd project
+
+[rchaga2][linux][~/comp206/project] mkdir archive
+[rchaga2][linux][~/comp206/project] mkdir backup
+[rchaga2][linux][~/comp206/project] mkdir source
+[rchaga2][linux][~/comp206/project] mkdir data
+
+[rchaga2][linux][~/comp206/project] cd ..
+[rchaga2][linux][~/comp206] cd ..
+
+[rchaga2][linux][~] ls
+comp206  public_html
+
+[rchaga2][linux][~] cd comp206
+[rchaga2][linux][~/comp206] ls			#to check the directories in comp206
+project
+
+[rchaga2][linux][~/comp206] cd project
+[rchaga2][linux][~/comp206/project] ls		#to check the directories in project
+archive  backup  data  source
+
+
